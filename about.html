@@ -4,29 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Bakwena</title>
+    <link rel="stylesheet" href="History.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>About Bakwena</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="traditional_food.html">Traditional Food</a>
-            <a href="culture_and_traditions.html">Culture and traditions</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <div class="container">
+                <a class="navbar-brand fw bold" href="index.html">About Bakwena</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="traditional_food.html">Traditional Food</a></li>
+                        <li class="nav-item"><a class="nav-link" href="culture_and_traditions.html">Culture and Traditions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
+    <main class="about-page">
+        <section class="about-content">
+            <div class="about-text">
         <p>The Bakwena also known as Bakoena are one of the most tswana speaking tribes in Botswana. They are located in Molepolole, they originate from South Africa and they migrated to Botswana.</p>
-        <p>These people are led by a Kgosi(Chief) and his name is Kgari Sechele III. His role is to lead the clan by maintaining order, carry the traditions(setso), belief(tumelo) and culture(Ngwao) of the clan.</p> 
-        <p>The totem also known as The SERETO of the Bakwena symbolizes or represents unity, and the Bakwena people are not allowed to harm the crocodile(kwena), and or eat the animal.</p>
-        <p>Bakwena people value respect(Botho) and cultural presevation, these tradtions are passed down from generation to generation through mainane(storytelling), elders telling their children proverbs(diane) which help the childern to know whats wrong and right.</p>
-         <p><img src="images/kgosiyabakwena.webp.webp" alt="kgosiyabakwena" width="474" height="316" >Kgosi Kgari Sechele</p>
-
+        <p>These people are led by a Kgosi <strong>Chief</strong> and his name is Kgari Sechele III. His role is to lead the clan by maintaining order, carry the traditions <strong>setso</strong>, belief <strong>tumelo</strong> and culture <strong>Ngwao</strong> of the clan.</p> 
+        <p>The totem also known as The <strong>sereto</strong> of the Bakwena symbolizes or represents unity, and the Bakwena people are not allowed to harm the crocodile <strong>kwena</strong>, and or eat the animal.</p>
+        <p>Bakwena people value respect <strong>Botho</strong> and cultural preservation, these traditions are passed down from generation to generation through mainane <strong>storytelling</strong>, elders telling their children proverbs <strong>diane</strong> which help the children to know whats wrong and right.</p>
+            </div>   
+        <div class="about-image">
+        <img src="images/kgosiyabakwena.webp.webp" alt="kgosiyabakwena" width="474" height="316">
+        <p>Kgosi Kgari Sechele</p>
+        </div>
+        </section>
     </main>
-     <footer>
-        <p>&copy; 2026 HISTORY OF BAKWENA<br>Contact: 75051614<br>&copy;created by Gosego Gordon Akanyang</p>
+    <footer class="footer p">
+        <p>&copy; 2026 HISTORY OF BAKWENA Contact: 75051614 &copy;created by Gosego Gordon Akanyang</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
